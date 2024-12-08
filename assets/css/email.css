@@ -1,0 +1,297 @@
+
+.left-part{
+    background-color: #aeadae;
+    height: 100vh;
+    width: 33.33%;
+    text-align: center;
+    
+}
+.left-part img{
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+}
+
+.menu ul{
+    margin: 0 auto;
+    z-index: 999;
+}
+.menu ul li{
+    background-color: #ffffff;
+    margin: 5px;
+    width: 200px;
+    border-radius: 50px;
+}
+.menu ul li a img{
+    width: 24px;
+    height: 24px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li:hover{
+    background-color: #9e005d;
+    color: white;
+}
+.menu ul li a{
+    display: flex !important;
+    justify-content: centerleft;
+    margin-left: 50px;
+}
+.menu ul li a:hover{
+    display: flex !important;
+    justify-content: left;
+}
+.form-area{
+    position: relative;
+}
+.search-input{
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    width: 18px;
+    top: 4px;
+    left: 8px;
+    z-index: 999;
+}
+.form-control-height{
+    height: 30px;
+}
+.form-control:focus{
+    border-radius: #9e005d;
+}
+
+.right-part{
+    width: 66.66%;
+    z-index: 999;
+}
+.grettings{
+    float: left;
+}
+.grettings h1{
+    font-size: 22px;
+    color: #9e005d;
+}
+
+.search-part{
+    float: left;
+}
+.notification-icon{
+    width: 24px;
+}
+
+.log-area-image img{
+    width: 40px;
+    margin-right: 10px;
+}
+.log-area h3{
+    font-size: 18px;
+}
+
+.log-area-image{
+    float: left;
+}
+.downarroy-icon{
+    width: 15px;
+    height: 10px;
+    margin-left: 15px;
+}
+.log-area-width{
+    margin: 0;
+    padding: 0;
+    line-height: 2px;
+}
+
+/* body area design */
+.email-body-left{
+    width: 10%;
+}
+.email-body-middle{
+    width: 40%;
+}
+.email-body-right{
+    width: 40%;
+}
+
+.directional-icons{}
+.directional-icons img{
+    width: 16px;
+    margin: 0px 22px;
+    cursor: pointer;
+    margin-left: 0;
+}
+.icons{
+    margin: 0 auto;
+    text-align: center;
+}
+.icons a{
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px;
+}
+.icons img{
+    width: 24px;
+    margin: 0 auto;
+}
+.settings{}
+.settings img{
+    width: 50px;
+    height: 50px;
+}
+.plus{
+    background: #FFD8E4;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.plus img{
+    width: 31px;
+    
+}
+.archive{}
+.archive img{
+    width: 56px;
+}
+.container-fluid{
+    position: relative;
+}
+
+.color-bottom{
+    position: absolute;
+    top: -260px;
+    left: 0px;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.all-emailing-border{
+    border-bottom: 1px solid #00000024;
+}
+.email-body-right a .csv-btn{
+    background: #9e005d;
+    border: none;
+    color: white;
+    width: 93px;
+    border-radius: 12px;
+}
+
+.submit-left img{
+    width: 18px;
+    margin: 10px;
+}
+.submit-left{
+    float: left;
+    width: 220px;
+}
+.submit-right{
+    float: left;
+    width: 130px;
+}
+.submit-right a{
+    background: #9f035f;
+    border-radius: 20px;
+    color: white;
+}
+.submit-right a img{
+    width: 16px !important;
+    height: 16px !important;
+}
+
+@media (max-width: 430px) and (min-width: 375px){
+    .grettings {
+        float: left;
+        width: 50%;
+        order: 1;
+    }
+    .search-part {
+        float: left;
+        width: 100%;
+        order: 3;
+    }
+    .log-area-width {
+        margin: 0;
+        padding: 0;
+        /* line-height: 2px; */
+    }
+
+    .left-part img {
+        width: 5.625em;
+        height: 5.625em;
+        margin-top: 20px;
+        margin-left: -6px;
+    }
+
+    .email-body-left{
+        width: 30%;
+    }
+    .menu ul li {
+        background-color: #ffffff;
+        margin: 5px;
+        width: 110px;
+        border-radius: 50px;
+    }
+    .menu ul li a{
+        font-size: 14px;
+    }
+    .employee-area {
+        /* width: 50%; */
+        float: left;
+    }
+    .employee-part{
+        width: 45%;
+        height: 135px;
+    }
+    .employee-area p{
+        font-size: 12px;
+    }
+    .grettings {
+        /* width: 50%; */
+        float: left;
+    }
+    
+    .grettings h1 {
+        font-size: 16px;
+        color: #9e005d;
+    }
+    .grettings p {
+        font-size: 14px;
+        color: #9e005d;
+    }
+    .log-area h3 {
+        font-size: 14px;
+    }
+    .log-area-image img {
+        width: 45px;
+        margin-right: 15px;
+    }
+    .employee-area img {
+        width: 25px;
+    }
+    .downarroy-icon {
+        width: 10px;
+        height: 6px;
+        margin-left: 5px;
+    }
+    
+    .log-area-width p{
+        font-size: 14px;
+    }
+
+    .color-bottom{
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+}
+

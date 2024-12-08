@@ -1,0 +1,265 @@
+.heading-style{
+    color: #9e005d;
+}
+/* navbar left area */
+.left-part{
+    background-color: #aeadae;
+    width: 25%;
+    text-align: center;
+    
+}
+.left-part img{
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu ul{
+    margin: 0 auto;
+    z-index: 999;
+}
+.menu ul li{
+    background-color: #ffffff;
+    margin: 5px;
+    width: 200px;
+    border-radius: 50px;
+}
+.menu ul li a img{
+    width: 24px;
+    height: 24px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li:hover{
+    background-color: #9e005d;
+    color: white;
+}
+.menu ul li a{
+    display: flex !important;
+    justify-content: left;
+    margin-left: 50px;
+    
+}
+.menu ul li a i{
+    display: flex;
+    align-items: center;
+}
+.menu ul li a:hover{
+    display: flex !important;
+    justify-content: left;
+}
+/* navbar left area */
+
+
+.form-area{
+    position: relative;
+}
+.search-input{
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    width: 18px;
+    top: 10px;
+    left: 8px;
+    z-index: 999;
+}
+.form-control {
+    padding: 5px 10px;
+}
+.form-control-height{
+    height: 30px;
+}
+.form-control:focus{
+    border-radius: #9e005d;
+}
+
+.right-part{
+    width: 75%;
+    z-index: 999;
+}
+.grettings{
+    float: left;
+}
+.grettings h1{
+    font-size: 22px;
+    color: #9e005d;
+}
+
+.search-part{
+    float: left;
+}
+.notification-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.log-area-image img{
+    width: 40px;
+    margin-right: 10px;
+}
+.log-area h3{
+    font-size: 18px;
+}
+
+.log-area-image{
+    float: left;
+}
+.downarroy-icon{
+    width: 15px;
+    height: 10px;
+    margin-left: 15px;
+}
+.log-area-width{
+    margin: 0;
+    padding: 0;
+    line-height: 2px;
+}
+
+/* body area design */
+
+/* directional-icons */
+.directional-icons i{
+    width: 16px;
+    margin: 0px 22px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 0;
+}
+/* directional-icons */
+/* notice area */
+.btn-outline-filter{
+    width: 128px;
+    height: 34px;
+    border: 1px solid #9e005d;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.btn-outline-filter:hover{
+    background-color: #9e005d;
+    color: white;
+}
+.notice-left-part{
+    border-right: 2px solid #9e005d;
+    padding-right: 15px;
+}
+/* notice area */
+/* breakdown area */
+
+.color-bottom img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* mobile responsive */
+@media (max-width: 430px) and (min-width: 375px){
+    .grettings {
+        float: left;
+        width: 50%;
+        order: 1;
+    }
+    .search-part {
+        float: left;
+        width: 100%;
+        order: 3;
+    }
+    .log-area-width {
+        margin: 0;
+        padding: 0;
+        /* line-height: 2px; */
+    }
+
+    .search-part {
+        float: left;
+        width: 100%;
+        order: 3;
+    }
+    .log-area-width {
+        margin: 0;
+        padding: 0;
+        /* line-height: 2px; */
+    }
+
+    .left-part img {
+        width: 5.625em;
+        height: 5.625em;
+        margin-top: 20px;
+        margin-left: -6px;
+    }
+    
+    .left-part {
+        background-color: #aeadae;
+        /* height: 100%; */
+
+        width: 25%;
+        text-align: center;
+    }
+
+    .menu ul {
+        margin: 0 auto;
+        z-index: 999;
+        margin-left: -10px;
+    }
+
+    .menu ul li {
+        background-color: #ffffff;
+        margin: 5px;
+        width: 95px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    .menu ul li a {
+        display: flex !important;
+        margin-left: 10px;
+    }
+    .menu ul li a img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .btn-bg {
+        background-color: #9e005d;
+        color: white;
+        width: 90px;
+    }
+
+    .card-position-text {
+        position: absolute;
+        top: 39%;
+        left: 18%;
+    }
+
+    .card-position-text p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    /* breakdown area  */
+    
+    .menu-card-left {
+        border: 1px solid #9e005d;
+        border-radius: 12px;
+        padding: 10px;
+        margin: 10px 10px;
+        width: 40%;
+        text-align: center;
+    }
+
+
+    .color-bottom img{
+        position: fixed;
+        top: 50%;
+        left: 0;
+        width: 100%;
+    }
+}
+
+/* mobile responsive */
